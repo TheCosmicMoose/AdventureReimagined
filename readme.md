@@ -1,4 +1,5 @@
-==== Moose Flavored ====
+**Moose Flavored**
+
 This pack aims to take some of the tweaks made by Klei Wright's Matcha Flavored pack, while keeping the majority of the game vanilla. Some of the key things I wanted to include are easier access to shulker boxes (I feel like I always end up going to the end before I really want to just so I can have shulkers). I also love Matcha's reward for killing the dragon being a safe overworld surface. I think that this is a more meaningful reward for "Beating the Game" than what vanilla minecraft offers. However I am executing it differently so that mobs still spawn above sea level, keeping mob farms intact.
 
 My goal is to "Matchafy" vanilla without completely changing the game's overall progression and mechanics, and keeping farms intact.
