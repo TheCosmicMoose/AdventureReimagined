@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "group": "ingredients",
+  "category": "misc",
+  "pattern": [
+    "ERE",
+    "PTD",
+    "EBE"
+  ],
+  "key": {
+    "E": "minecraft:ender_pearl",
+    "R": "minecraft:blaze_rod",
+    "P": "minecraft:prismarine_shard",
+    "T": "minecraft:totem_of_undying",
+    "D": "minecraft:echo_shard",
+    "B": "minecraft:breeze_rod"
+  },
+  "result": {
+    "id": "minecraft:ender_eye",
+    "count": 16
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:sequence",
+  "features": [
+    "adventure_reimagined:dappled_forest_pool",
+    "adventure_reimagined:pool_waterlily"
+  ]
+}

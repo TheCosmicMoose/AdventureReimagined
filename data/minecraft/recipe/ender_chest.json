@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "group": "chests",
+  "category": "misc",
+  "pattern": [
+    "OEO",
+    "OCO",
+    "OOO"
+  ],
+  "key": {
+    "O": [
+      "minecraft:obsidian",
+      "minecraft:crying_obsidian"
+    ],
+    "E": "minecraft:ender_pearl",
+    "C": "minecraft:chest"
+  },
+  "result": {
+    "id": "minecraft:ender_chest",
+    "count": 1
+  }
+}

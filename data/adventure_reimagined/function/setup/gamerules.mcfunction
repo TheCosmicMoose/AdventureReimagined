@@ -1,0 +1,3 @@
+gamerule spawn_phantoms false
+gamerule ender_pearls_vanish_on_death false
+gamerule fire_spread_radius_around_player 0

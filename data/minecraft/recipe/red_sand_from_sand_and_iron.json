@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "sand",
+  "ingredients": [
+    "minecraft:iron_nugget",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:red_sand"
+  }
+}

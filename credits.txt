@@ -1,0 +1,4 @@
+==== Credits ====
+- Klei Wright: creator of Matcha Flavored
+    - Moose Flavored uses several features from this pack with modifications including:
+        - Day and Moon timeline overrides to make the moon appear in the sky during the day instead of being permanently opposite to the sun.

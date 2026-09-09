@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:disk",
+  "half_height": 4,
+  "radius": 8,
+  "state_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:matching_fluids",
+          "offset": [
+            0,
+            1,
+            0
+          ],
+          "fluids": "#minecraft:water"
+        },
+        "then": {
+          "type": "minecraft:simple",
+          "state": "minecraft:red_sand"
+        }
+      }
+    ]
+  },
+  "target": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:dirt",
+      "minecraft:grass_block",
+      "minecraft:sand"
+    ]
+  }
+}

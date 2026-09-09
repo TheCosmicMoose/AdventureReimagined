@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "group": "pottery_sherd",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    " S ",
+    " B "
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "S": "minecraft:guster_pottery_sherd",
+    "B": "minecraft:brick"
+  },
+  "result": {
+    "id": "minecraft:guster_pottery_sherd",
+    "count": 2
+  }
+}

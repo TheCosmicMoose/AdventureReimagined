@@ -1,0 +1,10 @@
+
+{
+  "feature": "adventure_reimagined:gravelly_tidepool_foliage",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    }
+  ]
+}

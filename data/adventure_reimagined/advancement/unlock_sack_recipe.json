@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "adventure_reimagined:sack"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leather",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  },
+  "sends_telemetry_event": false
+}

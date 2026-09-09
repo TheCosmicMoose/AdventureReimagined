@@ -1,0 +1,1 @@
+function adventure_reimagined:mechanic/spawning/ticking

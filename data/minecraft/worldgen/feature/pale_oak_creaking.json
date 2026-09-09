@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:tree",
+  "below_trunk_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "type": "minecraft:simple",
+          "state": {
+            "id": "minecraft:dirt"
+          }
+        }
+      }
+    ]
+  },
+  "root_placer": {
+    "type": "minecraft:mangrove_root_placer",
+    "root_provider": {
+      "type": "minecraft:simple",
+      "state": {
+        "id": "minecraft:pale_oak_wood",
+        "properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "trunk_offset_y": 0,
+    "mangrove_root_placement": {
+      "max_root_width": 4,
+      "max_root_length": 4,
+      "random_skew_chance": 0.25,
+      "can_grow_through": "#minecraft:dirt",
+      "muddy_roots_in": "#minecraft:dirt",
+      "muddy_roots_provider": {
+        "type": "minecraft:simple",
+        "state": {
+          "id": "minecraft:pale_oak_wood"
+        }
+      }
+    }
+  },
+  "decorators": [
+    {
+      "type": "minecraft:creaking_heart",
+      "probability": 1
+    },
+    {
+      "type": "minecraft:pale_moss",
+      "leaves_probability": 0.15,
+      "trunk_probability": 0.4,
+      "ground_probability": 0.8
+    }
+  ],
+  "foliage_placer": {
+    "type": "minecraft:random_spread_foliage_placer",
+    "offset": 0,
+    "radius": 0,
+    "foliage_height": 1,
+    "leaf_placement_attempts": 0
+  },
+  "foliage_provider": {
+    "type": "minecraft:simple",
+    "state": {
+      "id": "minecraft:air",
+      "properties": {
+        "distance": "7",
+        "persistent": "false",
+        "waterlogged": "false"
+      }
+    }
+  },
+  "ignore_vines": false,
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size",
+    "lower_size": 1,
+    "upper_size": 2
+  },
+  "trunk_placer": {
+    "type": "minecraft:giant_trunk_placer",
+    "base_height": 5,
+    "height_rand_a": 2,
+    "height_rand_b": 4
+  },
+  "trunk_provider": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "weight": 4,
+        "data": "minecraft:polished_basalt"
+      },
+      {
+        "weight": 3,
+        "data": "minecraft:pale_oak_wood"
+      }
+    ]
+  }
+}

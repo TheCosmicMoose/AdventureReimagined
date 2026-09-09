@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:matching_fluids",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "fluids": "#minecraft:water"
+        },
+        "then": {
+          "type": "minecraft:weighted",
+          "entries": [
+            {
+              "weight": 4,
+              "data": {
+                "id": "minecraft:seagrass"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "id": "minecraft:sea_pickle",
+                "properties": {
+                  "pickles": "1",
+                  "waterlogged": "true"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "id": "minecraft:sea_pickle",
+                "properties": {
+                  "pickles": "2",
+                  "waterlogged": "true"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "id": "minecraft:sea_pickle",
+                "properties": {
+                  "pickles": "3",
+                  "waterlogged": "true"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "id": "minecraft:sea_pickle",
+                "properties": {
+                  "pickles": "4",
+                  "waterlogged": "true"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

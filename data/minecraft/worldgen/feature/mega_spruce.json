@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:tree",
+  "below_trunk_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "type": "minecraft:simple",
+          "state": "minecraft:dirt"
+        }
+      }
+    ]
+  },
+  "root_placer": {
+    "type": "minecraft:mangrove_root_placer",
+    "root_provider": {
+      "type": "minecraft:simple",
+      "state": "minecraft:spruce_wood"
+    },
+    "trunk_offset_y": 0,
+    "mangrove_root_placement": {
+      "max_root_width": 4,
+      "max_root_length": 4,
+      "random_skew_chance": 0.2,
+      "can_grow_through": [],
+      "muddy_roots_in": [],
+      "muddy_roots_provider": {
+        "type": "minecraft:simple",
+        "state": "minecraft:spruce_wood"
+      }
+    }
+  },
+  "decorators": [
+    {
+      "type": "minecraft:shelf_mushroom",
+      "probability": 0.2
+    },
+    {
+      "type": "minecraft:alter_ground",
+      "provider": {
+        "type": "minecraft:rule_based",
+        "rules": [
+          {
+            "if_true": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:beneath_tree_podzol_replaceable"
+            },
+            "then": {
+              "type": "minecraft:weighted",
+              "entries": [
+                {
+                  "weight": 18,
+                  "data": "minecraft:moss_block"
+                },
+                {
+                  "weight": 7,
+                  "data": "minecraft:podzol"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "foliage_placer": {
+    "type": "minecraft:mega_pine_foliage_placer",
+    "crown_height": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 17,
+      "min_inclusive": 13
+    },
+    "offset": 0,
+    "radius": 0
+  },
+  "foliage_provider": {
+    "type": "minecraft:simple",
+    "state": "minecraft:spruce_leaves"
+  },
+  "ignore_vines": false,
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size",
+    "lower_size": 1,
+    "upper_size": 2
+  },
+  "trunk_placer": {
+    "type": "minecraft:giant_trunk_placer",
+    "base_height": 13,
+    "height_rand_a": 2,
+    "height_rand_b": 14
+  },
+  "trunk_provider": {
+    "type": "minecraft:simple",
+    "state": "minecraft:spruce_log"
+  }
+}

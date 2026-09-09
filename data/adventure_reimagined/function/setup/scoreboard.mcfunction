@@ -1,0 +1,2 @@
+scoreboard objectives add gamerule_safe_surface dummy
+scoreboard objectives add moose_internal dummy

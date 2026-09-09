@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:sequence",
+  "features": [
+    "adventure_reimagined:grove_pool",
+    "adventure_reimagined:grove_bamboo"
+  ]
+}

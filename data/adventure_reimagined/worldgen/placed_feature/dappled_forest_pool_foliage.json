@@ -1,0 +1,9 @@
+{
+  "feature": "adventure_reimagined:dappled_forest_pool_foliage",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    }
+  ]
+}

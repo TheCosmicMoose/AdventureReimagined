@@ -1,0 +1,9 @@
+{
+  "feature": "adventure_reimagined:beach_tidepool_foliage",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    }
+  ]
+}
