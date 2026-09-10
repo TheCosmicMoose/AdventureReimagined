@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rotten_flesh"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": [
+          "adventure_reimagined:leather_from_rotten_flesh_camp",
+          "adventure_reimagined:leather_from_rotten_flesh_smoking"
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leather",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  },
+  "sends_telemetry_event": false
+}
