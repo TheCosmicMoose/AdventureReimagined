@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "mainhand": {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5,
+                    "max": 255
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "minecraft:effects": {
+          "minecraft:haste": {
+            "amplifier": {
+              "min": 1,
+              "max": 255
+            }
+          }
+        }
+      }
+    }
+  ]
+}

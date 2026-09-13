@@ -1,1 +1,2 @@
 function adventure_reimagined:mechanic/spawning/ticking
+function adventure_reimagined:mechanic/mining/netherite_instamine
