@@ -118,8 +118,8 @@
       "modifier": "overlay"
     },
     "minecraft:visual/sky_color": "#43B4B1",
-    "minecraft:visual/fog_color": "#b5f3ea",
-    "minecraft:visual/water_fog_color": "#7CB0A9"
+    "minecraft:visual/fog_color": "#81fad2",
+    "minecraft:visual/water_fog_color": "#53a089"
   },
   "carvers": [
     "minecraft:cave",
@@ -129,7 +129,7 @@
   "downfall": 0.8,
   "effects": {
     "water_color": "#5db7ef",
-    "grass_color": "#68b668",
+    "grass_color": "#51b351",
     "foliage_color": "#317247"
   },
   "features": [

@@ -30,14 +30,14 @@
     "type": "minecraft:poplar_foliage_placer",
     "height": {
       "type": "minecraft:uniform",
-      "min_inclusive": 5,
-      "max_inclusive": 7
+      "min_inclusive": 6,
+      "max_inclusive": 8
     },
     "offset": 0,
     "radius": {
       "type": "minecraft:uniform",
-      "min_inclusive": 3,
-      "max_inclusive": 4
+      "min_inclusive": 4,
+      "max_inclusive": 5
     },
     "side_hole_chance": 0.125
   },

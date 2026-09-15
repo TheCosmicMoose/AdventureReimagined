@@ -110,7 +110,7 @@
     },
     "minecraft:visual/sky_color": "#21B1BE",
     "minecraft:visual/water_fog_color": "#5db7ef",
-    "minecraft:visual/fog_color": "#FBD9FB"
+    "minecraft:visual/fog_color": "#7ae5e9"
   },
   "carvers": [
     "minecraft:cave",
