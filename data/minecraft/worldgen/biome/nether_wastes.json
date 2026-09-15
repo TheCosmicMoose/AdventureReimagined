@@ -67,7 +67,7 @@
       "modifier": "overlay"
     },
     "minecraft:visual/fog_color": "#d11d09",
-    "minecraft:visual/ambient_light_color": "#f66151"
+    "minecraft:visual/ambient_light_color": "#270808"
   },
   "carvers": "minecraft:nether_cave",
   "downfall": 0,

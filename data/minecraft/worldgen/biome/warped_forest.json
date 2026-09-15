@@ -63,7 +63,7 @@
       "modifier": "append"
     },
     "minecraft:visual/fog_color": "#8a08cf",
-    "minecraft:visual/ambient_light_color": "#05cbbf"
+    "minecraft:visual/ambient_light_color": "#0a4442"
   },
   "carvers": "minecraft:nether_cave",
   "downfall": 0,
