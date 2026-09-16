@@ -101,8 +101,8 @@
       },
       "modifier": "overlay"
     },
-    "minecraft:visual/sky_color": "#60D2DB",
-    "minecraft:visual/fog_color": "#9bdbad",
+    "minecraft:visual/sky_color": "#52d2dc",
+    "minecraft:visual/fog_color": "#90ffc7",
     "minecraft:visual/water_fog_color": "#64BDDA"
   },
   "carvers": [

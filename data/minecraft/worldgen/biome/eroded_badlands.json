@@ -113,7 +113,7 @@
     },
     "minecraft:gameplay/snow_golem_melts": true,
     "minecraft:visual/sky_color": "#7BDDCC",
-    "minecraft:visual/fog_color": "#ECCEA9",
+    "minecraft:visual/fog_color": "#f5be7c",
     "minecraft:visual/water_fog_color": "#9EA493"
   },
   "carvers": [

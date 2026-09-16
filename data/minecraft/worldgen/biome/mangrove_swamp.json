@@ -108,8 +108,8 @@
       },
       "modifier": "overlay"
     },
-    "minecraft:visual/fog_color": "#7CC4A2",
-    "minecraft:visual/sky_color": "#4AC8C4",
+    "minecraft:visual/fog_color": "#59c887",
+    "minecraft:visual/sky_color": "#34d1ac",
     "minecraft:visual/water_fog_color": "#5D9C84",
     "minecraft:visual/water_fog_end_distance": {
       "argument": 0.85,

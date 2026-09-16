@@ -121,13 +121,13 @@
       },
       "modifier": "overlay"
     },
-    "minecraft:visual/sky_color": "#84C795",
+    "minecraft:visual/sky_color": "#77ba88",
     "minecraft:visual/water_fog_color": "#779988",
     "minecraft:visual/water_fog_end_distance": {
       "argument": 0.85,
       "modifier": "multiply"
     },
-    "minecraft:visual/fog_color": "#A6D3BD"
+    "minecraft:visual/fog_color": "#5fd269"
   },
   "carvers": [
     "minecraft:cave",

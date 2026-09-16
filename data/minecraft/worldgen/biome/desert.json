@@ -106,8 +106,8 @@
       "modifier": "overlay"
     },
     "minecraft:gameplay/snow_golem_melts": true,
-    "minecraft:visual/sky_color": "#7BDDCC",
-    "minecraft:visual/fog_color": "#E7DBA1",
+    "minecraft:visual/sky_color": "#55dbed",
+    "minecraft:visual/fog_color": "#f7de66",
     "minecraft:visual/water_fog_color": "#90BB99"
   },
   "carvers": [
