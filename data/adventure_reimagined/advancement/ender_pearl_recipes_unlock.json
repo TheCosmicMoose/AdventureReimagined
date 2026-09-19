@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "leather": {
+    "has_ender_pearl": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:leather"
+            "items": "minecraft:ender_pearl"
           }
         ]
       }
@@ -14,12 +14,13 @@
   },
   "requirements": [
     [
-      "leather"
+      "has_ender_pearl"
     ]
   ],
   "rewards": {
     "recipes": [
-      "adventure_reimagined:sack"
+      "minecraft:ender_eye",
+      "minecraft:ender_chest"
     ]
   },
   "sends_telemetry_event": false

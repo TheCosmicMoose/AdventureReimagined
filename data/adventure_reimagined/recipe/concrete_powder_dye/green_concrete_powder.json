@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_blocks",
+  "category": "building",
+  "pattern": [
+    "CCC",
+    "CDC",
+    "CCC"
+  ],
+  "key": {
+    "C": "#minecraft:concrete_powders",
+    "D": "minecraft:green_dye"
+  },
+  "result": {
+    "id": "minecraft:green_concrete_powder",
+    "count": 8
+  }
+}

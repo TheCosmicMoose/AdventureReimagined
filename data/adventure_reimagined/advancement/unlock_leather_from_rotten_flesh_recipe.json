@@ -10,25 +10,18 @@
           }
         ]
       }
-    },
-    "has_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipes": [
-          "adventure_reimagined:leather_from_rotten_flesh_camp",
-          "adventure_reimagined:leather_from_rotten_flesh_smoking"
-        ]
-      }
     }
   },
   "requirements": [
     [
-      "leather",
-      "has_recipe"
+      "leather"
     ]
   ],
   "rewards": {
-    "recipes": []
+    "recipes": [
+      "adventure_reimagined:leather_from_rotten_flesh_smoking",
+      "adventure_reimagined:leather_from_rotten_flesh_camp"
+    ]
   },
   "sends_telemetry_event": false
 }

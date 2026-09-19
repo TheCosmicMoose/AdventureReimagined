@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "leather": {
+    "has_sand": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:leather"
+            "items": "minecraft:sand"
           }
         ]
       }
@@ -14,12 +14,12 @@
   },
   "requirements": [
     [
-      "leather"
+      "has_sand"
     ]
   ],
   "rewards": {
     "recipes": [
-      "adventure_reimagined:sack"
+      "minecraft:red_sand_from_sand_and_iron"
     ]
   },
   "sends_telemetry_event": false

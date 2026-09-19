@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:terracotta"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_terracotta"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adventure_reimagined:terracotta_dye/white_terracotta",
+      "adventure_reimagined:terracotta_dye/black_terracotta",
+      "adventure_reimagined:terracotta_dye/red_terracotta",
+      "adventure_reimagined:terracotta_dye/green_terracotta",
+      "adventure_reimagined:terracotta_dye/brown_terracotta",
+      "adventure_reimagined:terracotta_dye/blue_terracotta",
+      "adventure_reimagined:terracotta_dye/purple_terracotta",
+      "adventure_reimagined:terracotta_dye/cyan_terracotta",
+      "adventure_reimagined:terracotta_dye/light_gray_terracotta",
+      "adventure_reimagined:terracotta_dye/light_blue_terracotta",
+      "adventure_reimagined:terracotta_dye/magenta_terracotta",
+      "adventure_reimagined:terracotta_dye/orange_terracotta",
+      "adventure_reimagined:terracotta_dye/yellow_terracotta",
+      "adventure_reimagined:terracotta_dye/lime_terracotta",
+      "adventure_reimagined:terracotta_dye/pink_terracotta",
+      "adventure_reimagined:terracotta_dye/gray_terracotta"
+    ]
+  },
+  "sends_telemetry_event": false
+}

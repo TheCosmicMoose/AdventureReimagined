@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_blocks",
+  "category": "building",
+  "pattern": [
+    "TTT",
+    "TDT",
+    "TTT"
+  ],
+  "key": {
+    "T": "#minecraft:terracotta",
+    "D": "minecraft:green_dye"
+  },
+  "result": {
+    "id": "minecraft:green_terracotta",
+    "count": 8
+  }
+}

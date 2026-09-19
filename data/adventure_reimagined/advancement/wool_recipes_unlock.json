@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wool"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adventure_reimagined:wool_to_string",
+      "adventure_reimagined:wool_dye/white_wool_bulk",
+      "adventure_reimagined:wool_dye/black_wool_bulk",
+      "adventure_reimagined:wool_dye/red_wool_bulk",
+      "adventure_reimagined:wool_dye/green_wool_bulk",
+      "adventure_reimagined:wool_dye/brown_wool_bulk",
+      "adventure_reimagined:wool_dye/blue_wool_bulk",
+      "adventure_reimagined:wool_dye/purple_wool_bulk",
+      "adventure_reimagined:wool_dye/cyan_wool_bulk",
+      "adventure_reimagined:wool_dye/light_gray_wool_bulk",
+      "adventure_reimagined:wool_dye/light_blue_wool_bulk",
+      "adventure_reimagined:wool_dye/magenta_wool_bulk",
+      "adventure_reimagined:wool_dye/orange_wool_bulk",
+      "adventure_reimagined:wool_dye/yellow_wool_bulk",
+      "adventure_reimagined:wool_dye/lime_wool_bulk",
+      "adventure_reimagined:wool_dye/pink_wool_bulk",
+      "adventure_reimagined:wool_dye/gray_wool_bulk"
+    ]
+  },
+  "sends_telemetry_event": false
+}

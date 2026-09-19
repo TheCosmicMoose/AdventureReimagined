@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_concrete_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:concrete_powders"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_concrete_powder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adventure_reimagined:concrete_powder_dye/white_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/black_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/red_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/green_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/brown_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/blue_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/purple_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/cyan_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/light_gray_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/light_blue_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/magenta_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/orange_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/yellow_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/lime_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/pink_concrete_powder",
+      "adventure_reimagined:concrete_powder_dye/gray_concrete_powder"
+    ]
+  },
+  "sends_telemetry_event": false
+}
