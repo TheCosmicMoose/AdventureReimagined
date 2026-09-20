@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "banner",
+  "key": {
+    "#": "minecraft:red_wool",
+    "|": "#minecraft:logs"
+  },
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "result": {
+    "id": "minecraft:red_banner",
+    "count": 6
+  }
+}
