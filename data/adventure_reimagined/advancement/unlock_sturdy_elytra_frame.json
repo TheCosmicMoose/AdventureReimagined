@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shulker_shell"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingredient"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adventure_reimagined:custom_items/sturdy_elytra_frame",
+      "adventure_reimagined:custom_items/reinforced_elytra"
+    ]
+  },
+  "sends_telemetry_event": false
+}

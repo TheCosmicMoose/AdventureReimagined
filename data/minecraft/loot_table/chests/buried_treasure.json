@@ -10,6 +10,12 @@
           "weight": 1,
           "modifier": [
             {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1
+              }
+            },
+            {
               "type": "minecraft:set_enchantments",
               "enchantments": {
                 "adventure_reimagined:lucky_bobber": 3
@@ -24,7 +30,9 @@
             },
             {
               "type": "minecraft:set_name",
-              "name": "Lucky Bobber",
+              "name": {
+                "translate": "item.adventure_reimagined.lucky_bobber"
+              },
               "target": "item_name"
             }
           ]
@@ -34,6 +42,12 @@
           "name": "minecraft:stick",
           "weight": 1,
           "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1
+              }
+            },
             {
               "type": "minecraft:set_lore",
               "lore": [
@@ -49,7 +63,9 @@
             },
             {
               "type": "minecraft:set_name",
-              "name": "Lure Bobber",
+              "name": {
+                "translate": "item.adventure_reimagined.lure_bobber"
+              },
               "target": "item_name"
             }
           ]

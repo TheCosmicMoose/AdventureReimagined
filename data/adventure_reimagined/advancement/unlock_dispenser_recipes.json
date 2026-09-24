@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:string",
+              "minecraft:stick",
+              "minecraft:bow",
+              "dropper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingredient"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adventure_reimagined:redstone/dropper_to_dispenser",
+      "adventure_reimagined:redstone/dropper_to_dispenser_bow"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:elytra",
+  "addition": "minecraft:shulker_shell",
+  "template": "minecraft:petrified_oak_slab",
+  "result": {
+    "id": "minecraft:elytra",
+    "components": {
+      "minecraft:damage_resistant": {
+        "types": [
+          "minecraft:in_fire",
+          "minecraft:explosion"
+        ]
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:reinforced_elytra_toughness",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:reinforced_elytra_armor",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "chest",
+          "display": {
+            "type": "default"
+          }
+        }
+      ],
+      "minecraft:custom_name": "Reinforced Elytra"
+    },
+    "count": 1
+  }
+}

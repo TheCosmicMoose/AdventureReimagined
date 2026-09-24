@@ -1,5 +1,7 @@
 {
-  "description": "Lure Bobber",
+  "description": {
+    "translate": "enchantment.adventure_reimagined.lure_bobber"
+  },
   "exclusive_set": "adventure_reimagined:lucky_bobber",
   "supported_items": "minecraft:stick",
   "weight": 1,
