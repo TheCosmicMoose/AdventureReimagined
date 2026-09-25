@@ -13,14 +13,13 @@
     "W": "minecraft:nether_star"
   },
   "result": {
-    "id": "minecraft:petrified_oak_slab",
+    "id": "minecraft:arms_up_pottery_sherd",
     "components": {
-      "minecraft:item_model": "minecraft:nether_star",
-      "minecraft:custom_name": "sturdy elytra frame",
+      "minecraft:custom_name": {
+        "translate": "item.adventure_reimagined.elytra_upgrade_template"
+      },
       "minecraft:max_stack_size": 1,
-      "minecraft:can_place_on": [
-        {}
-      ]
+      "minecraft:item_model": "minecraft:shulker_spawn_egg"
     }
   }
 }

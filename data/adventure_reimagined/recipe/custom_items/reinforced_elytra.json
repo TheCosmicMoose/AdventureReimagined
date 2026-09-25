@@ -2,7 +2,7 @@
   "type": "minecraft:smithing_transform",
   "base": "minecraft:elytra",
   "addition": "minecraft:shulker_shell",
-  "template": "minecraft:petrified_oak_slab",
+  "template": "minecraft:arms_up_pottery_sherd",
   "result": {
     "id": "minecraft:elytra",
     "components": {
